@@ -4,7 +4,7 @@ module Cuba::Tools
 
     attr_accessor :config
 
-    def setup
+    def self.setup
       yield config
     end
 
