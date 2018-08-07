@@ -67,7 +67,7 @@ module Cuba::Tools
         else
           require 'warden'
           require 'devise'
-          app.plugin Devise::TestHelpers
+          app.plugin Devise::Test::ControllerHelpers
         end
       end
 
